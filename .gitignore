@@ -1,0 +1,5 @@
+node_modules/
+dist/
+bench/scale.db
+bench/scale.db-*
+bench/scale.db.imported

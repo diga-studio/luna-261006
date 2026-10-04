@@ -1,0 +1,21 @@
+{
+  "name": "wp-uptime-store",
+  "version": "0.1.0",
+  "description": "WordPress site-fleet uptime accounting library backed by local SQLite",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "engines": {
+    "node": ">=23.4.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "bench": "npm run build && node --expose-gc bench/scale.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.5.0"
+  }
+}
