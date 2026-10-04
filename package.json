@@ -1,0 +1,17 @@
+{
+  "name": "milestone-escrow-ledger",
+  "version": "1.0.0",
+  "description": "Milestone escrow ledger for creative projects (credit units only, SQLite-backed)",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
