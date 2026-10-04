@@ -1,0 +1,22 @@
+{
+  "name": "castline-allocate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CastLine 共享费用分摊库：万分比权重、逐科目核平、部门汇总尾差控制",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "npm run build && node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=23.6"
+  }
+}
