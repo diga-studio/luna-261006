@@ -1,0 +1,16 @@
+{
+  "name": "hr-case-import",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Crash-safe incremental CSV import of historical HR cases into SQLite",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
