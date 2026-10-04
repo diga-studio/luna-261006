@@ -1,0 +1,17 @@
+{
+  "name": "glb-furniture-metrics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Furniture GLB dimension analysis and grounding normalization library",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
