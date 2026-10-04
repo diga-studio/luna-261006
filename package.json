@@ -1,0 +1,15 @@
+{
+  "name": "thinlink-migration-kernel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ThinLink host maintenance migration kernel (in-memory, in-process library)",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/node": "20.19.28"
+  }
+}
