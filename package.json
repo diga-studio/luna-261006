@@ -1,0 +1,19 @@
+{
+  "name": "mindmap-batch-edit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mind map batch editing library backed by SQLite",
+  "type": "module",
+  "main": "dist/src/mindmap.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "tsc -p . && node --test 'dist/test/*.test.js'"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=23.4"
+  }
+}
