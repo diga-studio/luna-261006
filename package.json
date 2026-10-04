@@ -1,0 +1,16 @@
+{
+  "name": "firstday-buddy-matcher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Batch mentor matching library for FirstDay Buddy",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^5.6.0"
+  }
+}
