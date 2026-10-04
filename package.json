@@ -1,0 +1,15 @@
+{
+  "name": "milestone-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Milestone escrow ledger for creative projects (credit units only)",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "24.12.4",
+    "typescript": "5.9.3"
+  }
+}
