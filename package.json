@@ -1,0 +1,13 @@
+{
+  "name": "telemetry-buffer",
+  "version": "0.1.0",
+  "description": "Crash-recoverable telemetry ingest buffer: SQLite-backed admission state with an append-only local archive.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=23.6.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
