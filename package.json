@@ -1,0 +1,16 @@
+{
+  "name": "splitcart",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SplitCart repayment allocation library (TypeScript + SQLite)",
+  "type": "module",
+  "main": "dist/src/plan.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.0"
+  }
+}
