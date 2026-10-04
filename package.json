@@ -1,0 +1,17 @@
+{
+  "name": "disposable-email-domain-checker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disposable email domain checker with SQLite-backed revisioned domain tables",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --disable-warning=ExperimentalWarning --test \"dist/test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "typescript": ">=4.6.2"
+  }
+}
