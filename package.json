@@ -1,0 +1,16 @@
+{
+  "name": "wildpine-med-schedule",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WildPine medication dose-time accounting library",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^24.0.0"
+  }
+}
