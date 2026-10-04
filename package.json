@@ -1,0 +1,13 @@
+{
+  "name": "license-seat-rebalance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-memory license seat rebalance for per-device software licenses",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
