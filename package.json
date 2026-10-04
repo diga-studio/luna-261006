@@ -1,0 +1,14 @@
+{
+  "name": "approval-sla-clock",
+  "version": "1.0.0",
+  "description": "Approval SLA working-time clock library (in-memory, calendar supplied by caller)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
