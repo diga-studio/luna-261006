@@ -1,0 +1,16 @@
+{
+  "name": "wp-config-compliance",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only WordPress wp-config.php compliance analyzer (restricted PHP subset)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
