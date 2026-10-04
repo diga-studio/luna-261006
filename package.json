@@ -1,0 +1,21 @@
+{
+  "name": "securevault-zip-inspect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SecureVault ZIP intake inspection library",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node dist/test/run-tests.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.0"
+  },
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src",
+    "src"
+  ]
+}
