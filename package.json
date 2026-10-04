@@ -1,0 +1,16 @@
+{
+  "name": "sdp-negotiation-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SDP offer/answer negotiation verifier for MeshComm signaling",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
