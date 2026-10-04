@@ -1,0 +1,19 @@
+{
+  "name": "mindforge-canvas-outline",
+  "version": "0.1.0",
+  "description": "Export a MindForge Canvas concept graph to a hierarchical Markdown outline.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
