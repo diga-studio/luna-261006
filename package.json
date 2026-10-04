@@ -1,0 +1,15 @@
+{
+  "name": "business-hours-sla",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Business-hours SLA calculation for dealer leads",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.4",
+    "typescript": "^5.9.3"
+  }
+}
