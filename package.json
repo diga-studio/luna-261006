@@ -1,0 +1,15 @@
+{
+  "name": "depth-limited-crawler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Depth-limited in-memory site crawler library",
+  "type": "module",
+  "main": "dist/src/crawl.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
