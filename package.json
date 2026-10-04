@@ -1,0 +1,20 @@
+{
+  "name": "saml-authn-request-verifier",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SAML 2.0 HTTP-POST AuthnRequest XML signature verification library for identity gateways",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "dependencies": {
+    "saxes": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^26.0.0"
+  },
+  "types": "dist/src/index.d.ts"
+}
