@@ -1,0 +1,47 @@
+{
+  "name": "pdf-watermark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Append-only PDF watermarking via incremental updates",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "npm run typecheck && node --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "file:vendor/napi-rs-canvas-0.1.100.tgz",
+    "@types/node": "file:vendor/types-node-24.12.4.tgz",
+    "pdfjs-dist": "file:vendor/pdfjs-dist-5.4.530.tgz",
+    "typescript": "file:vendor/typescript-5.9.3.tgz",
+    "undici-types": "file:vendor/undici-types-7.16.0.tgz"
+  },
+  "overrides": {
+    "@napi-rs/canvas-darwin-arm64": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-darwin-x64": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-linux-x64-gnu": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-linux-x64-musl": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-linux-arm64-gnu": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-linux-arm64-musl": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-linux-arm-gnueabihf": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-linux-riscv64-gnu": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-win32-x64-msvc": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-win32-arm64-msvc": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz",
+    "@napi-rs/canvas-android-arm64": "file:vendor/napi-rs-canvas-darwin-arm64-0.1.100.tgz"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
