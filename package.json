@@ -1,0 +1,16 @@
+{
+  "name": "depth-limited-crawler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Depth-limited in-memory site crawler returning the run's site graph",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
