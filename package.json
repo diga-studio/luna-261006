@@ -1,0 +1,16 @@
+{
+  "name": "jpeg-privacy-export",
+  "version": "0.1.0",
+  "description": "Privacy-preserving JPEG export: strip GPS/owner/thumbnails, keep camera & exposure metadata, byte-identical scan data.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
