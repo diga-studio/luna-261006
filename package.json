@@ -1,0 +1,15 @@
+{
+  "name": "vaultterm-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tamper-evident audit ledger with per-subject erasure, persisted to SQLite",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
