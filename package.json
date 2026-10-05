@@ -1,0 +1,15 @@
+{
+  "name": "watch-coverage-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-process watch coverage accounting library",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node dist/test/run-tests.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
