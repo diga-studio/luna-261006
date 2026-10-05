@@ -1,0 +1,15 @@
+{
+  "name": "quota-exam-bank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "受配额随机组卷库：按类别与难度配额生成试卷，最小化重复题与随机成本",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "typescript": "5.9.3"
+  }
+}
