@@ -1,0 +1,17 @@
+{
+  "name": "mp4-verify",
+  "version": "0.1.0",
+  "description": "MP4 成片核验库：核实文件中的每一帧来自本次生成且播放时间轴准确",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
