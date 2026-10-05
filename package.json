@@ -1,0 +1,14 @@
+{
+  "name": "doodlespark-stamp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DoodleSpark SVG stamp import library: validates and normalizes SVG stamps by resolving use references into standalone SVG.",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "build": "node --input-type=module -e \"await import('./src/index.ts'); console.log('build ok')\"",
+    "test": "node --test \"tests/**/*.test.ts\""
+  }
+}
