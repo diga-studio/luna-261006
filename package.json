@@ -1,0 +1,20 @@
+{
+  "name": "git-squash-merge-executor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Squash-merge execution library backed by real local git repos and SQLite persistence",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.test.json"
+  },
+  "devDependencies": {
+    "@types/node": ">=22.5.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
