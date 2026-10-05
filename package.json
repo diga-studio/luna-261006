@@ -1,0 +1,16 @@
+{
+  "name": "retainedge-risk-preview",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RetainEdge risk rule preview library (in-memory)",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/tests/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.4.0"
+  }
+}
