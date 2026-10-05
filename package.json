@@ -1,0 +1,15 @@
+{
+  "name": "nurturetrack-behavior-stats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "行为观察区间统计库（整段记录/部分记录/瞬时采样）",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
