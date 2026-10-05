@@ -1,0 +1,20 @@
+{
+  "name": "prepaid-revenue-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "预付订阅收入逐日封账库（SQLite 持久化）",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node scripts-run-tests.js"
+  },
+  "devDependencies": {
+    "typescript": "file:vendor/typescript-5.9.3.tgz",
+    "@types/node": "file:vendor/node-25.9.3.tgz"
+  },
+  "dependencies": {
+    "undici-types": "file:vendor/undici-types-7.24.6.tgz"
+  },
+  "types": "dist/src/index.d.ts"
+}
