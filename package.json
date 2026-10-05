@@ -1,0 +1,20 @@
+{
+  "name": "git-squash-merge-lib",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Squash-merge execution library backed by SQLite, operating on real local git repositories",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
