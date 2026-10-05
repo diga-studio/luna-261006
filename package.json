@@ -1,0 +1,22 @@
+{
+  "name": "render-task-queue",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Persistent render task queue: SQLite-backed tasks, local-file results",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && tsc -p tsconfig.test.json && node --test \"dist-test/test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.4",
+    "typescript": "^5.9.3"
+  }
+}
