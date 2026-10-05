@@ -1,0 +1,13 @@
+{
+  "name": "batch-recall",
+  "version": "1.0.0",
+  "private": true,
+  "description": "采购批次召回库：精确追踪入库/拆分拼箱/生产混料历史中的污染传播",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
