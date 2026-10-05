@@ -1,0 +1,16 @@
+{
+  "name": "novasphere-evacuation-planner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NovaSphere host maintenance evacuation planning library (in-memory, planning only)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/planner.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "typescript": "5.9.3"
+  }
+}
