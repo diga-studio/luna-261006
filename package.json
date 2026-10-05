@@ -1,0 +1,14 @@
+{
+  "name": "event-social-matching",
+  "version": "0.1.0",
+  "private": true,
+  "description": "In-process library for multi-round one-on-one social matching at events",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^4.6.0"
+  }
+}
