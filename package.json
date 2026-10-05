@@ -1,0 +1,19 @@
+{
+  "name": "identity-resolution",
+  "version": "0.1.0",
+  "private": true,
+  "description": "客户身份纠错与档案重组库（进程内存版）",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "test": "npm run build:test && node --test \"dist-test/test/**/*.test.js\"",
+    "test:unit": "npm run build:test && node --test \"dist-test/test/unit/**/*.test.js\"",
+    "test:perf": "npm run build:test && node --test \"dist-test/test/perf/**/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
