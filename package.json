@@ -1,0 +1,20 @@
+{
+  "name": "payroll-close",
+  "version": "0.1.0",
+  "private": true,
+  "description": "月度工资追补关账库：薪酬时间线与关账记录持久化于 SQLite",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --experimental-sqlite --test dist/test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.4",
+    "typescript": "5.9.3"
+  }
+}
