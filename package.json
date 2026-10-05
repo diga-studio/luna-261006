@@ -1,0 +1,18 @@
+{
+  "name": "ap-aging-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "In-memory accounts-payable aging ledger with revision-aware historical queries",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
