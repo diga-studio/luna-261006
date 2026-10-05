@@ -1,0 +1,16 @@
+{
+  "name": "pdf-region-redact",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Selective PDF text redaction: preview and true removal of glyphs, instance-aware for shared Form XObjects",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "vitest": "4.1.11",
+    "@types/node": "26.6.4"
+  }
+}
