@@ -1,0 +1,18 @@
+{
+  "name": "annotation-migration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "视频剪辑版本间的批注迁移预览库（24fps 整数帧，纯内存）",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
