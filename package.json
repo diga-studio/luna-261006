@@ -1,0 +1,16 @@
+{
+  "name": "shopping-pack-optimizer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shopping list pack optimization library (in-memory, exact arithmetic)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
