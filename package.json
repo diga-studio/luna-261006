@@ -1,0 +1,16 @@
+{
+  "name": "plant-maintenance-planner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "厂区维护窗口推荐库：在候选停机时点内求覆盖全部设备的全局最低停产费用计划",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  }
+}
