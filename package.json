@@ -1,0 +1,20 @@
+{
+  "name": "pdf-region-redact",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Region-based true text redaction for simple text PDFs (preview + burn-in)",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "dependencies": {
+    "@cantoo/pdf-lib": "^2.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
