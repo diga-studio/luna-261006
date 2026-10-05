@@ -1,0 +1,14 @@
+{
+  "name": "workload-settlement",
+  "version": "0.1.0",
+  "private": true,
+  "description": "周期性科研成果工作量结算库（含作者封顶与三层汇总约束的整数化）",
+  "main": "dist/src/settle.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
