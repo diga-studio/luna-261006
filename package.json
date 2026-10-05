@@ -1,0 +1,19 @@
+{
+  "name": "payroll-close",
+  "version": "0.1.0",
+  "private": true,
+  "description": "月度工资追补关账库",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=23.4"
+  }
+}
