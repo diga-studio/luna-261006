@@ -1,0 +1,14 @@
+{
+  "name": "watch-coverage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-memory watch coverage accounting for streaming playback statistics",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
