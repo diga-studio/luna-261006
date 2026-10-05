@@ -1,0 +1,13 @@
+{
+  "name": "rule-graph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Online modification library for rule dependency graphs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test build/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
