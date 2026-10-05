@@ -1,0 +1,13 @@
+{
+  "name": "telemetry-chain-detector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "In-process endpoint telemetry sequence detector with exact evidence-chain counts",
+  "scripts": {
+    "test": "node --expose-gc --test tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
