@@ -1,0 +1,16 @@
+{
+  "name": "plant-maintenance-planner",
+  "version": "1.0.0",
+  "description": "厂区维护窗口推荐库：在候选停机时点内为设备分组，输出总停产费用全局最低的维护计划",
+  
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": ["dist/src"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
